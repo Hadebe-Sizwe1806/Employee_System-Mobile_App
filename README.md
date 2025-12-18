@@ -21,12 +21,14 @@ Administrators can review and manage verification submissions through a structur
 * 🔒 No sensitive credentials committed to GitHub
 
 ## 🛠️ Technology Stack
-|Layer------|Technologies|
-|Frontend	|Flutter, Dart|
-|State      |Management	Provider|
-|Backend	   |Firebase Authentication, Cloud Firestore|
-|Tooling	   |FlutterFire CLI, Git|
-|Platforms	|Android, Web, Desktop|
+| Layer              | Technologies                                   |
+|--------------------|-----------------------------------------------|
+| Frontend           | Flutter, Dart                                 |
+| State Management   | Provider                                      |
+| Backend            | Firebase Authentication, Cloud Firestore      |
+| Tooling            | FlutterFire CLI, Git                          |
+| Platforms          | Android, Web, Desktop                         |
+
 
 ## 🔐 Firebase Configuration (Secure Setup)
 

@@ -1,16 +1,29 @@
-# group_i
+## 🔐 Firebase Configuration (Secure Setup)
 
-A new Flutter project.
+This repository **does not include real Firebase credentials**.  
+Sensitive configuration is excluded using `.gitignore`.
 
-## Getting Started
+### ▶️ Local Setup Steps
 
-This project is a starting point for a Flutter application.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Hadebe-Sizwe1806/Consultation_Booking_App.git
+   cd Consultation_Booking_App
+2. **Install dependencies**
+      ```bash
+    flutter pub get
+3. **Create a Firebase project**<br>
+   * Go to the Firebase Console<br>
+   * Enable Authentication and Cloud Firestore
+4. **Configure Firebase for Flutter**
+    ```bash
+   flutterfire configure
+5. **Create local Firebase config**
+   ```bash
+   cp lib/firebase_options_example.dart lib/firebase_options.dart
+6. **Run the application**
+   ```bash
+   flutter run
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
